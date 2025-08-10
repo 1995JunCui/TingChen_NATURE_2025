@@ -19,27 +19,25 @@ dplyr ：1.1.4
 readr :2.1.4
 On a normal desktop computer with standard internet speed, the installation of these packages typically takes 2 hours.
 ### Work pepline
+
+work pepline
 1.Quality Control
-trim_galore -q 25 --phred33 --length 30 --stringency 3 --fastqc --gzip --paired DT_2_HFSC.1.fq DT_2_HFSC.2.fq -o example/output/1.cleandata/DT_2_HFSC
 
 2.Alinement
+
 INDEX=/reference/mm10_index
-STAR --runThreadN 20 \
-  --genomeDir ${INDEX} \
-  --readFilesIn DT_2_HFSC.1.fq DT_2_HFSC.2.fq \
-  --outFileNamePrefix "$output/2.mapping/DT_2_HFSC/DT_2_HFSC_" \
-  --readFilesCommand zcat \
-  --outFilterMultimapNmax 20 \
-  --outSAMtype BAM SortedByCoordinate \
-  --outSAMstrandField intronMotif \
+Use STAR
 
 
 3.Expression Gene Quantification
+
 #genome
 GTF=ref/mm10.refGene.gtf
+
 #retroelement
 GTF=HOMER/gEVE/Mouse/Mmus38.geve.v1.gtf
-featureCounts -T 5 -t exon -g gene_id --countReadPairs -p -a $GTF -o /example/output/counts/DT_2_HFSC/DT_2_HFSC.featurecounts.txt  /example/output/2.mapping/DT_2_HFSC/Aligned.sortedByCoord.out.bam
+
+
 
 4.Differential Gene Expression Analysis between Different Groups, work pipline in bulkRNA.R.
 
