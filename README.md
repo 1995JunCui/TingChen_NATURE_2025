@@ -6,12 +6,11 @@ Python 3.11.1
 R  4.2.2
 in our analyses.
 ### Installation guide
-install.packages(c("ggplot2", "stringr", "clusterProfiler", "DESeq2", "org.Mm.eg.db", "openxlsx", "dplyr","readr"))
+install.packages(c("ggplot2", "stringr", "clusterProfiler", "DESeq2", "openxlsx", "dplyr","readr"))
 ggplot2 ：3.5.1
 stringr ：1.5.1
 clusterProfiler ：4.6.2
 DESeq2 ：1.38.3
-org.Mm.eg.db ：3.16.0
 openxlsx ：4.2.5.2
 dplyr ：1.1.4
 readr :2.1.4
@@ -37,7 +36,7 @@ STAR --runThreadN 20 \
 GTF=ref/mm10.refGene.gtf
 #retroelement
 GTF=HOMER/gEVE/Mouse/Mmus38.geve.v1.gtf
-featureCounts -T 5 -t exon -g gene_id --countReadPairs -p -a $GTF -o example/output/counts/DT_2_HFSC/DT_2_HFSC.featurecounts.txt  example/output/2.mapping/DT_2_HFSC/Aligned.sortedByCoord.out.bam
+featureCounts -T 5 -t exon -g gene_id --countReadPairs -p -a $GTF -o /example/output/counts/DT_2_HFSC/DT_2_HFSC.featurecounts.txt  /example/output/2.mapping/DT_2_HFSC/Aligned.sortedByCoord.out.bam
 
 4.Differential Gene Expression Analysis between Different Groups  ,work pipline in bulkRNA.R .
 
@@ -46,9 +45,6 @@ featureCounts -T 5 -t exon -g gene_id --countReadPairs -p -a $GTF -o example/out
 RStudio 2023.06.2+561
 R 4.4.2
 ### Installation guide
-#Installation Guide for Required R Packages
-#To install the packages needed for our single - cell analysis workflow, follow these steps from an R terminal:
-#Run the following command in an R terminal to install all required packages from CRAN:
 install.packages(c("Seurat","dplyr","patchwork","tidyverse","DoubletFinder","readxl","ggplot2"))
 ### Instruction for use  
 The analysis workflow is divided into three separate R scripts, each corresponding to a specific cell type analysis. All scripts contain detailed inline comments to explain key steps and parameters:
