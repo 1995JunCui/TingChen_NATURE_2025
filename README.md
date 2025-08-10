@@ -23,7 +23,7 @@ On a normal desktop computer with standard internet speed, the installation of t
 trim_galore -q 25 --phred33 --length 30 --stringency 3 --fastqc --gzip --paired DT_2_HFSC.1.fq DT_2_HFSC.2.fq -o example/output/1.cleandata/DT_2_HFSC
 
 2.Alinement
-NDEX=/reference/mm10_index
+INDEX=/reference/mm10_index
 STAR --runThreadN 20 \
   --genomeDir ${INDEX} \
   --readFilesIn DT_2_HFSC.1.fq DT_2_HFSC.2.fq \
