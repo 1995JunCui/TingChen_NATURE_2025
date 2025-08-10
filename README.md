@@ -14,7 +14,7 @@ DESeq2 ：1.38.3
 openxlsx ：4.2.5.2
 dplyr ：1.1.4
 readr :2.1.4
-
+On a normal desktop computer with standard internet speed, the installation of these packages typically takes 2 hours.
 ### Work pepline
 1.Quality Control
 trim_galore -q 25 --phred33 --length 30 --stringency 3 --fastqc --gzip --paired DT_2_HFSC.1.fq DT_2_HFSC.2.fq -o example/output/1.cleandata/DT_2_HFSC
@@ -46,6 +46,7 @@ RStudio 2023.06.2+561
 R 4.4.2
 ### Installation guide
 install.packages(c("Seurat","dplyr","patchwork","tidyverse","DoubletFinder","readxl","ggplot2"))
+On a normal desktop computer with standard internet speed, the installation of these packages typically takes 2 hours.
 ### Instruction for use  
 The analysis workflow is divided into three separate R scripts, each corresponding to a specific cell type analysis. All scripts contain detailed inline comments to explain key steps and parameters:
 scRNAseq_total cell.R
