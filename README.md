@@ -38,7 +38,7 @@ GTF=ref/mm10.refGene.gtf
 GTF=HOMER/gEVE/Mouse/Mmus38.geve.v1.gtf
 featureCounts -T 5 -t exon -g gene_id --countReadPairs -p -a $GTF -o /example/output/counts/DT_2_HFSC/DT_2_HFSC.featurecounts.txt  /example/output/2.mapping/DT_2_HFSC/Aligned.sortedByCoord.out.bam
 
-4.Differential Gene Expression Analysis between Different Groups  ,work pipline in bulkRNA.R .
+4.Differential Gene Expression Analysis between Different Groups, work pipline in bulkRNA.R.
 
 ## Sc-RNAseq analysis 
 ### System Requirements
