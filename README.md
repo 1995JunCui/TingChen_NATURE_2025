@@ -20,7 +20,8 @@ readr :2.1.4
 On a normal desktop computer with standard internet speed, the installation of these packages typically takes 2 hours.
 ### Work pepline
 
-work pepline
+For the specific workflow and demo, please refer to the bulkRNAseq folder.
+
 1.Quality Control
 
 2.Alinement
@@ -38,8 +39,8 @@ GTF=ref/mm10.refGene.gtf
 GTF=HOMER/gEVE/Mouse/Mmus38.geve.v1.gtf
 
 
-
 4.Differential Gene Expression Analysis between Different Groups, work pipline in bulkRNA.R.
+
 
 ## Sc-RNAseq analysis 
 ### System Requirements
