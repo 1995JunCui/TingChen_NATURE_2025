@@ -25,7 +25,7 @@ readr: 2.1.4
 ```
 
 On a normal desktop computer with standard internet speed, the installation of these packages typically takes 2 hours.
-### Work pepeline
+### Work pipeline
 
 For the specific workflow and demo, please refer to the bulkRNAseq folder.
 
@@ -52,7 +52,7 @@ For mRNA analysis, we utilized the mm10 genome (mm10.refGene.gtf). For retroel
 4.Differential gene expression analysis between different groups, work pipline in bulkRNA.R.
 
 
-## Sc-RNAseq analysis 
+## scRNAseq analysis 
 ### System requirements
 ```
 RStudio 2023.06.2+561
