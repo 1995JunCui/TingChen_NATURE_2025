@@ -42,7 +42,7 @@ For alignment, the mouse mm10 genome assembly was used as the reference.
 
 3.Expression Gene Quantification
 
-For mRNA analysis, we utilized the mm10 genome (refdata-gex-mm10-2020-A). For retroelement analysis, we employed the Mmus38.geve.v1 annotation (http://geve.med.u-tokai.ac.jp). 
+For mRNA analysis, we utilized the mm10 genome (mm10.refGene.gtf). For retroelement analysis, we employed the Mmus38.geve.v1 annotation (http://geve.med.u-tokai.ac.jp). 
 
 4.Differential Gene Expression Analysis between Different Groups, work pipline in bulkRNA.R.
 
