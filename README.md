@@ -9,7 +9,10 @@ subread (FeatureCounts v2.0.6)
 R  4.2.2
 in our analyses.
 ### Installation guide
+```
 install.packages(c("ggplot2", "stringr", "clusterProfiler", "DESeq2", "openxlsx", "dplyr","readr"))
+```
+```
 ggplot2 ：3.5.1
 stringr ：1.5.1
 clusterProfiler ：4.6.2
@@ -17,6 +20,8 @@ DESeq2 ：1.38.3
 openxlsx ：4.2.5.2
 dplyr ：1.1.4
 readr :2.1.4
+```
+
 On a normal desktop computer with standard internet speed, the installation of these packages typically takes 2 hours.
 ### Work pepeline
 
