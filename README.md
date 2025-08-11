@@ -34,6 +34,8 @@ Use this command to run pipeline.sh：
 nohup bash pipeline.sh > pipeline.log 2>&1 &
 ```
 
+The workflow consists of the following four steps:
+
 1.Quality control
 
 2.Alinement
