@@ -38,6 +38,9 @@ The workflow consists of the following four steps:
 
 1.Quality control
 
+The input file is fq.list with the following format:
+6OHDA_DT_1_HFSC /bulkRNAseq/data/6OHDA_DT_1_HFSC.1.fq /bulkRNAseq/data/6OHDA_DT_1_HFSC.2.fq
+
 2.Alinement
 
 For alignment, the mouse mm10 genome assembly was used as the reference. 
