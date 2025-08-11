@@ -22,12 +22,18 @@ On a normal desktop computer with standard internet speed, the installation of t
 
 For the specific workflow and demo, please refer to the bulkRNAseq folder.
 
+```
+nohup bash pipeline.sh > pipeline.log 2>&1 &
+```
+
 1.Quality Control
 
 2.Alinement
+
 For alignment, the mouse mm10 genome assembly was used as the reference. 
 
 3.Expression Gene Quantification
+
 For mRNA analysis, we utilized the mm10 genome (refdata-gex-mm10-2020-A). For retroelement analysis, we employed the Mmus38.geve.v1 annotation (http://geve.med.u-tokai.ac.jp). 
 
 4.Differential Gene Expression Analysis between Different Groups, work pipline in bulkRNA.R.
