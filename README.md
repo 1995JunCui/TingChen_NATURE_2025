@@ -34,17 +34,17 @@ Use this command to run pipeline.sh：
 nohup bash pipeline.sh > pipeline.log 2>&1 &
 ```
 
-1.Quality Control
+1.Quality control
 
 2.Alinement
 
 For alignment, the mouse mm10 genome assembly was used as the reference. 
 
-3.Expression Gene Quantification
+3.Expression gene quantification
 
 For mRNA analysis, we utilized the mm10 genome (mm10.refGene.gtf). For retroelement analysis, we employed the Mmus38.geve.v1 annotation (http://geve.med.u-tokai.ac.jp). 
 
-4.Differential Gene Expression Analysis between Different Groups, work pipline in bulkRNA.R.
+4.Differential gene expression analysis between different groups, work pipline in bulkRNA.R.
 
 
 ## Sc-RNAseq analysis 
