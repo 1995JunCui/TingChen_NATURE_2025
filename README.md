@@ -2,11 +2,13 @@
 ## Bulkseq analysis_mRNA and retroelement analysis 
 ### System Requirements
 Both Python and R are required to replicate the analysis pipeline. We used:
+```
 Python 3.11.1
 trim_galore v0.6.10
 STAR v2.7.10a
 subread (FeatureCounts v2.0.6)
 R  4.2.2
+```
 in our analyses.
 ### Installation guide
 ```
