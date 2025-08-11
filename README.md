@@ -10,7 +10,7 @@ FeatureCounts v2.0.6
 R 4.2.2
 ```
 in our analyses.
-### Installation guide
+### Installation guide 
 ```
 install.packages(c("ggplot2", "stringr", "clusterProfiler", "DESeq2", "openxlsx", "dplyr","readr"))
 ```
