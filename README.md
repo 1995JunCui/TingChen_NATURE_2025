@@ -58,6 +58,6 @@ install.packages(c("Seurat","dplyr","patchwork","tidyverse","DoubletFinder","rea
 On a normal desktop computer with standard internet speed, the installation of these packages typically takes 2 hours.
 ### Instruction for use  
 The analysis workflow is divided into three separate R scripts, each corresponding to a specific cell type analysis. All scripts contain detailed inline comments to explain key steps and parameters:
-scRNAseq_total cell.R
-scRNAseq_immune cell.R
+scRNAseq_total cell.R；
+scRNAseq_immune cell.R；
 scRNAseq_keratinocyte.R
