@@ -1,6 +1,6 @@
 # TingChen_NATURE_2025
 ## Bulkseq analysis_mRNA and retroelement analysis 
-### System Requirements
+### System requirements
 Both Python and R are required to replicate the analysis pipeline. We used:
 ```
 Python 3.11.1
@@ -48,7 +48,7 @@ For mRNA analysis, we utilized the mm10 genome (mm10.refGene.gtf). For retroel
 
 
 ## Sc-RNAseq analysis 
-### System Requirements
+### System requirements
 ```
 RStudio 2023.06.2+561
 R 4.4.2
