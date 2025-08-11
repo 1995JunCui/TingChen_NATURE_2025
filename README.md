@@ -22,6 +22,7 @@ On a normal desktop computer with standard internet speed, the installation of t
 
 For the specific workflow and demo, please refer to the bulkRNAseq folder.
 
+Use this command to run pipeline.sh：
 ```
 nohup bash pipeline.sh > pipeline.log 2>&1 &
 ```
