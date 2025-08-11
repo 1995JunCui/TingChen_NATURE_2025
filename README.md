@@ -18,26 +18,17 @@ openxlsx ：4.2.5.2
 dplyr ：1.1.4
 readr :2.1.4
 On a normal desktop computer with standard internet speed, the installation of these packages typically takes 2 hours.
-### Work pepline
+### Work pepeline
 
 For the specific workflow and demo, please refer to the bulkRNAseq folder.
 
 1.Quality Control
 
 2.Alinement
-
-INDEX=/reference/mm10_index
-Use STAR
-
+For alignment, the mouse mm10 genome assembly was used as the reference. 
 
 3.Expression Gene Quantification
-
-#genome
-GTF=ref/mm10.refGene.gtf
-
-#retroelement
-GTF=HOMER/gEVE/Mouse/Mmus38.geve.v1.gtf
-
+For mRNA analysis, we utilized the mm10 genome (refdata-gex-mm10-2020-A). For retroelement analysis, we employed the Mmus38.geve.v1 annotation (http://geve.med.u-tokai.ac.jp). 
 
 4.Differential Gene Expression Analysis between Different Groups, work pipline in bulkRNA.R.
 
