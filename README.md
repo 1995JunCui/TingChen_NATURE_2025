@@ -38,7 +38,7 @@ The workflow consists of the following four steps:
 
 1.Quality control
 
-The input file is fq.list with the following format:
+The input file is fq.list with the following format:<br>
 sample_name /Path/to/data/sample_name.1.fq /Path/to/data/sample_name.2.fq
 
 2.Alinement
