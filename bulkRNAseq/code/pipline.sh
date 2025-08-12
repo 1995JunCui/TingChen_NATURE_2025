@@ -49,5 +49,5 @@ echo "$id	$output/3.featurecounts/${id}.mRNA.count.txt" >>featurecount.file.txt
 done
 
 # 运行 bulkRNA.R 脚本
-Rscript bulkRNA.R > bulkRNA.R.log 2>&1 &&
+Rscript bulkRNA.R 
 
